@@ -13,7 +13,7 @@ class LoginController
 
         if (Auth::attempt($credentials)) {
             // Đăng nhập thành công
-            return redirect()->intended('/dashboard'); // Chuyển hướng đến trang dashboard
+            return redirect()->intended('/home'); // Chuyển hướng đến trang dashboard
         }
 
         // Đăng nhập thất bại
