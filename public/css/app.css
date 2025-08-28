@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Inter:wght@300;400;500;600&display=swap');
+
+.sky-gradient {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 50%, #f093fb 100%);
+}
+
+.orbitron {
+    font-family: 'Orbitron', monospace;
+}
+
+.inter {
+    font-family: 'Inter', sans-serif;
+}
